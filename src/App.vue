@@ -3,13 +3,13 @@
   <h1>Houseplant Water Tracker</h1>
 
   <watering-summary
+
     todo="TODO #7: v-bind WateringSummary summary prop to App's wateringSummary computed property"
     />
 
   <plant-detail v-for="plant in plants" 
     v-bind:key="plant.id"
-    todo1="TODO #1 v-bind the plant to the PlantDetail plant prop"
-    
+    todo1="TODO #2 v-bind the plant to the PlantDetail plant prop"
     todo2="TODO #5: v-on connect the water-update event to wateringUpdate method"
      />
 

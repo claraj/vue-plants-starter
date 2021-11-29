@@ -35,7 +35,7 @@ export default {
   name: 'HousePlant',
   // TODO #4: specify this component emits a water-update event
   props: {
-    // TODO #2: create a plant prop. This prop is an Object
+    // TODO #1: create a plant prop. This prop is an Object
   },
   data() {
     return {
