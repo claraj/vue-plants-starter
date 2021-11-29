@@ -4,7 +4,7 @@
 
   <watering-summary
 
-    todo="TODO #7: v-bind WateringSummary summary prop to App's wateringSummary computed property"
+    todo="TODO #7: v-bind WateringSummary component's summary prop to App's wateringSummary computed property"
     />
 
   <plant-detail v-for="plant in plants" 
