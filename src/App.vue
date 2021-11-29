@@ -3,7 +3,6 @@
   <h1>Houseplant Water Tracker</h1>
 
   <watering-summary
-
     todo="TODO #7: v-bind WateringSummary component's summary prop to App's wateringSummary computed property"
     />
 

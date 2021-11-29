@@ -6,7 +6,7 @@
 
     <h4>You have watered these plants</h4>
 
-    <div v-if="watered">
+    <div v-if="watered.length">
         <p v-for="plant in watered" v-bind:key="plant.id">
             {{ plant.name }} has been watered.
         </p>
@@ -18,7 +18,7 @@
 
     <h4>You have NOT watered these plants</h4>
 
-    <div v-if="notWatered"> 
+    <div v-if="notWatered.length"> 
         <p v-for="plant in notWatered" v-bind:key="plant.id">
             {{ plant.name }} needs to be watered.
         </p>
@@ -39,9 +39,11 @@ export default {
   },
   computed: {
       watered() {
+          return []  // delete this line and replace with your code
         // TODO #8: create a list of names of plants that have been watered. Use the summary prop
       },
       notWatered() {
+          return []  // delete this line and replace with your code
         // TODO #9: create a list of names of plants that have NOT been watered. Use the summary prop         
       }
   }
