@@ -39,7 +39,7 @@ export default {
   },
   data() {
     return {
-      // TODO #2b: create a userSetWatered data. The value will be set from the plant props watered property
+      // TODO #2b: create a userSetWatered data. The value will be set to be the watered property of the plant prop
     }
   },
   methods: {
